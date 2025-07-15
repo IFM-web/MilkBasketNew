@@ -1,0 +1,179 @@
+﻿@model MilkBasket.Models.Login;
+@{
+    ViewData["Title"] = "Login To Admin - IFM360 Guard Tour";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Star Admin2 </title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" asp-append-version="true" />
+    <link rel="stylesheet" href="~/assets/vendors/feather/feather.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/vendors/mdi/css/materialdesignicons.min.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/vendors/ti-icons/css/themify-icons.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/vendors/font-awesome/css/font-awesome.min.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/vendors/typicons/typicons.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/vendors/simple-line-icons/css/simple-line-icons.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/vendors/css/vendor.bundle.base.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.css" asp-append-version="true">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+
+
+    <link rel="stylesheet" href="~/assets/css/style.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/assets/css/LoginStyle.css" asp-append-version="true">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="~/assets/images/favicon.png" asp-append-version="true" />
+
+</head>
+<body>
+    @if (ViewBag.message != null)
+    {
+        <div id="captchaAlert" class="alert alert-danger alert-dismissible fade show" role="alert">
+            @ViewBag.message
+
+        </div>
+    }
+    <div class="container-scroller">
+        <div class="container-fluid page-body-wrapper full-page-wrapper">
+            <div class="content-wrapper d-flex align-items-center auth px-0">
+                <div class="row w-100 mx-0">
+                    <div class="col-lg-4 mx-auto login-size">
+                        <div class="card" id="card">
+                            <div class="card-inner">
+                                <div class="card-front">
+
+                                    <div class="auth-form-light text-left">
+                                        <img src="~/img/Logo-Icon.png" />
+
+                                        <div class="form_text text-center">
+                                            <h5 class="fw-light">Login your Account</h5>
+                                        </div>
+
+                                        <form class="pt-3" method="post">
+                                            <div class="form-group">
+                                                <p>Login Id</p>
+                                                <input type="text" asp-for="UName" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Username">
+                                            </div>
+                                            <div class="form-group mb-0">
+                                                <p>Password</p>
+                                                <input type="password" asp-for="Password" class="form-control form-control-lg" id="exampleInputPassword12" placeholder="Password">
+                                            </div>
+
+
+                                            <div class="d-flex justify-content-between align-items-center mb-5 mt-1">
+                                                @*   <a href="#" class="auth-link text-black" id="show-signup">Change password?</a> *@
+                                            </div>
+                                            <div class="mt-4 d-grid gap-2">
+                                                <button type="submit" id="loginBtn" class="btn btn-block btn-primary btn-lg fw-medium auth-form-btn">Login</button>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </div>
+
+
+                                <div class="card-back">
+
+                                    <div class="auth-form-light text-left">
+                                        <img src="~/img/Logo-Icon.png">
+                                        <div class="form_text text-center">
+                                            <h4>Change Password</h4>
+                                        </div>
+
+                                        <div class="pt-2" method="post">
+                                            <div class="form-group  mb-0">
+                                                <p>User Name</p>
+                                                <input type="text" name="User Name" class="form-control mandatory form-control-lg" id="Username">
+                                            </div>
+                                            <div class="form-group  mb-0">
+                                                <p>Old Password</p>
+                                                <input type="text" name="Old Password " class="form-control mandatory form-control-lg" id="oldpwd">
+                                            </div>
+                                            <div class="form-group mb-0">
+                                                <p>Password</p>
+                                                <input type="password" name="Password " class="form-control mandatory form-control-lg" id="pwd">
+                                            </div>
+                                            <div class="form-group mb-0">
+                                                <p>Confirm Password</p>
+                                                <input type="password" name="Confirm Password" class="form-control mandatory form-control-lg" id="confpwd">
+                                            </div>
+
+                                            <div class="d-flex justify-content-between align-items-center mb-1 mt-1">
+                                                <a href="#" class="auth-link text-black" id="show-login">Login</a>
+                                            </div>
+                                            <div class="mt- d-grid gap-2">
+                                                <button onclick="Forgetpassword()" class="btn btn-block btn-primary btn-lg fw-medium auth-form-btn">Change Password</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <!-- content-wrapper ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+
+    <script src="~/js/Admin/SetURL.js" defer asp-append-version="true"></script>
+    <script src="~/assets/vendors/js/vendor.bundle.base.js" asp-append-version="true"></script>
+    <script src="~/assets/vendors/bootstrap-datepicker/bootstrap-datepicker.min.js" asp-append-version="true"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Plugin js for this page -->
+    <!-- End plugin js for this page -->
+    <!-- inject:js -->
+    <script src="~/assets/js/off-canvas.js" asp-append-version="true"></script>
+    <script src="~/assets/js/template.js" asp-append-version="true"></script>
+    <script src="~/assets/js/settings.js" asp-append-version="true"></script>
+    <script src="~/assets/js/hoverable-collapse.js" asp-append-version="true"></script>
+    <script src="~/assets/js/todolist.js" asp-append-version="true"></script>
+
+    <script src="~/js/Master.js" asp-append-version="true"></script>
+    <script src="~/js/Admin/Login.js" asp-append-version="true"></script>
+    <!-- endinject -->
+
+
+    <script>
+
+        setTimeout(function () {
+            $('#captchaAlert').alert('close');
+        }, 3000);
+        document.getElementById("show-signup").addEventListener("click", function (event) {
+            event.preventDefault();
+            document.getElementById("card").classList.add("flipped");
+        });
+        document.getElementById("show-login").addEventListener("click", function (event) {
+            event.preventDefault();
+            document.getElementById("card").classList.remove("flipped");
+        });
+
+        document.getElementById("exampleInputEmail1").addEventListener("focus", function (event) {
+            if (event.key === "Enter") {
+                document.getElementById("loginBtn").click();
+            }
+        });
+
+    </script>
+
+</body>
+</html>
+

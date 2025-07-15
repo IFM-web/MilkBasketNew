@@ -1,0 +1,398 @@
+﻿@using Microsoft.AspNetCore.Http;
+
+@inject IHttpContextAccessor HttpContextAccessor
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewBag.Title</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous" />
+	<!-- Our Custom CSS -->
+	<link rel="stylesheet" href="~/css/Styleee.css" />
+	<!-- Font Awesome JS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+	<script src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+	@*<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>*@
+	@*<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>*@
+	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+	<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+	<link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+	@*<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>*@
+	<style>
+		/* Toggle Styles */
+
+		.nav-pills > li > a {
+			border-radius: 0;
+		}
+
+		.valname {
+			margin-top: -51px;
+			/* margin-bottom: 1rem; */
+			padding-top: 51px;
+			position: absolute;
+			float: left;
+		}
+
+		.h5, h5 {
+			font-size: 1.25rem;
+			height: 30px;
+			padding: 5px;
+			/*width: 874px;*/
+			text-transform: uppercase;
+			width: 100%;
+			background-color: #6d7fcc;
+			color: white;
+		}
+
+		#wrapper {
+			padding-left: 0;
+			-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+			overflow: hidden;
+		}
+
+			#wrapper.toggled {
+				padding-left: 250px;
+				overflow: hidden;
+			}
+
+
+
+				#wrapper.toggled #sidebar-wrapper {
+					width: 250px;
+				}
+
+		#page-content-wrapper {
+			position: absolute;
+			padding: 15px;
+			width: 100%;
+			overflow-x: hidden;
+		}
+
+		.xyz {
+			min-width: 360px;
+		}
+
+		#wrapper.toggled #page-content-wrapper {
+			position: relative;
+			margin-right: 0px;
+		}
+
+		.fixed-brand {
+			width: auto;
+		}
+
+		.fixTableHead {
+			overflow-y: auto;
+			height: 500px;
+		}
+
+			.fixTableHead tr th {
+				position: sticky;
+				top: 0;
+			}
+
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		th,
+		td {
+			/*padding: 8px 15px;*/
+			border: 2px solid black;
+		}
+
+		th {
+			/*background: #ABDD93;*/
+		}
+
+		/* Sidebar Styles */
+
+
+
+
+
+
+		.sidebar-nav li a:active,
+		.sidebar-nav li a:focus {
+			text-decoration: none;
+		}
+
+		ul#menu {
+			padding: 0px;
+			list-style-type: none;
+		}
+
+		.sidebar-nav > .sidebar-brand {
+			height: 65px;
+			font-size: 18px;
+			line-height: 60px;
+		}
+
+			.sidebar-nav > .sidebar-brand a {
+				color: #999999;
+			}
+
+				.sidebar-nav > .sidebar-brand a:hover {
+					color: #fff;
+					background: none;
+				}
+
+		.no-margin {
+			margin: 0;
+		}
+
+		@@media(min-width:768px) {
+			#wrapper {
+				padding-left: 250px;
+			}
+
+			.fixed-brand {
+				width: 250px;
+			}
+
+			#wrapper.toggled {
+				padding-left: 0;
+			}
+
+			#sidebar-wrapper {
+				width: 250px;
+			}
+
+			#wrapper.toggled #sidebar-wrapper {
+				width: 250px;
+			}
+
+			#wrapper.toggled-2 #sidebar-wrapper {
+				width: 50px;
+			}
+
+				#wrapper.toggled-2 #sidebar-wrapper:hover {
+					width: 250px;
+				}
+
+			#page-content-wrapper {
+				padding: 20px;
+				position: relative;
+				-webkit-transition: all 0.5s ease;
+				-moz-transition: all 0.5s ease;
+				-o-transition: all 0.5s ease;
+				transition: all 0.5s ease;
+			}
+
+			#wrapper.toggled #page-content-wrapper {
+				position: relative;
+				margin-right: 0;
+				padding-left: 250px;
+			}
+
+			#wrapper.toggled-2 #page-content-wrapper {
+				position: relative;
+				margin-right: 0;
+				margin-left: -200px;
+				-webkit-transition: all 0.5s ease;
+				-moz-transition: all 0.5s ease;
+				-o-transition: all 0.5s ease;
+				transition: all 0.5s ease;
+				width: auto;
+			}
+		}
+
+		.nav-stacked {
+			padding: 0px;
+		}
+
+			.nav-stacked li ul a {
+				background: #182d87;
+				border-bottom: 1px dotted;
+			}
+			#bdy{
+			margin-top: 54px;
+			}
+
+		#data-table thead {
+			background-color: #50859e;
+			color: #fff;
+		}
+
+			#data-table thead th {
+				border: 1px solid white;
+			}
+
+			th{
+				background-color: #50859e;
+				color: #fff;
+			}
+
+		#header{
+			text-transform: uppercase;
+		}
+	</style>
+
+</head>
+<body id="page-top">
+	@{
+		Guid id = Guid.NewGuid();
+	}
+
+
+	<div style="display:flex;">
+		<div style="background: #7386d5;">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="container-fluid" @*style="margin-top: -55px;"*@>
+					@* <input type="hidden" id="UserId" value="@HttpContextAccessor.HttpContext.Session.GetString("Id")" /> *@
+				@* 	<input type="hidden" value="@HttpContextAccessor.HttpContext.Session.GetString("Username")" /> *@
+					@* <input type="hidden" id="cid" value="@HttpContextAccessor.HttpContext.Session.GetString("CompanyId")" />
+					<input type="hidden" id="pid" value="@HttpContextAccessor.HttpContext.Session.GetString("ProfileId")" /> *@
+					<button type="button" id="sidebarCollapse" class="btn btn-info">
+						<i class="fas fa-align-left"></i>
+					</button>
+					<button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<i class="fas fa-align-justify"></i>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="nav navbar-nav m-auto">
+							<li class="nav-item dropdown">
+								 <img src="
+@* @HttpContextAccessor.HttpContext.Session.GetString(" UserPhoto")*@"
+								style="width: 68px;height: 57px;margin: -10px 0px 0 -157px;border-radius: 100%;position: absolute;" />
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false"><p class="valname">
+								@* 	@HttpContextAccessor.HttpContext.Session.GetString("Username") *@
+									</p>Settings</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="@Url.Action("Logout", "Admin")">Logout<i class="fas fa-sign-out-alt"></i></a>
+									@*<a class="dropdown-item" href="@Url.Action("ChangePassword", "Admin")">Change Password<i class=""></i></a>*@
+
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<nav id="sidebar">
+				<div class="sidebar-header">
+					@* <a href="@Url.Action("Dashboard", "Admin")"><img src="@HttpContextAccessor.HttpContext.Session.GetString("Companylogo")" style="width: 176px;height: 63px;margin-left: 14px;background-color:white;" /></a> *@
+					<a href="@Url.Action("Dashboard", "Admin")"><img src="~/CompanyLogo/downloadinv.png" style="width: 176px;height: 63px;margin-left: 14px;background-color:white;" /></a>
+				</div>
+				@* div id="Modal2" style="margin-top: 60px;" class="modal fade" tabindex="-1">
+					<div class="modal-dialog">
+						<div class="modal-content" style="width: 895px;margin-left: -138px;">
+							<div class="modal-header">
+								<h4 class="modal-title" id="modelid">DETAILS</h4>
+								<button type="button" class="close" data-dismiss="modal">&times;</button>
+							</div>
+							<div class="modal-body" style="margin-top: -14px;">
+
+								<div class="table-responsive">
+									<div id="PrintdivModal2" style="margin-top: 10px;">
+									</div>
+								</div>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" id="btncancel" data-dismiss="modal">Cancel</button>
+
+								
+							</div>
+						</div>
+					</div>
+				</div> *@
+				@await Component.InvokeAsync("Left")
+			</nav>
+		</div>
+
+		@RenderBody()
+
+	</div>
+	<!-- End of Content Wrapper -->
+	@*</div>*@
+	<!-- End of Page Wrapper -->
+	<!-- Scroll to Top Button-->
+	<!-- Popper.JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+	<!-- Bootstrap JS -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js"></script>
+	<script type="text/javascript"
+			charset="utf8"
+			src="https://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
+	<script src="@Url.Content("~/js/xlxs.full.min.js")"></script>
+
+	@*<script src="~/js/custom1.js"></script>*@
+	<script>
+		$('#btndata').on('click', function () {
+			$("#divPLoader").show();
+			exportexcel();
+			$("#divPLoader").hide(1000);
+
+		});
+
+		function exportexcel(type, fn, dl) {
+			
+			var ddd = $("#txtpagename").val();
+			var elt = document.getElementById('data-table');
+			console.log(elt);
+			var wb = XLSX.utils.table_to_book(elt, { sheet: "sheet1" });
+			
+			   
+			return dl ?
+				XLSX.write(wb, { bookType: type, bookSST: true, type: 'base64' }) :
+				XLSX.writeFile(wb, fn || (ddd + '.' + (type || 'xlsx')));
+
+			// XLSX.writeFile(wb, fn || (ddd+ (type+ '.' || 'xlsx')));
+		}
+
+		function initMenu() {
+			$('#menu ul').hide();
+			$('#menu ul').children('.current').parent().show();
+			//$('#menu ul:first').show();
+			$('#menu li a').click(
+				function () {
+					var checkElement = $(this).next();
+					if ((checkElement.is('ul')) && (checkElement.is(':visible'))) {
+						return false;
+					}
+					if ((checkElement.is('ul')) && (!checkElement.is(':visible'))) {
+						$('#menu ul:visible').slideUp('normal');
+						checkElement.slideDown('normal');
+						return false;
+					}
+				}
+			);
+		}
+
+		function dtable() {
+			var myTable = $("#data-table");
+			var thead = myTable.find("thead");
+			var thRows = myTable.find("tr:has(th)");
+			if (thead.length === 0) {  //if there is no thead element, add one.
+				thead = $("<thead></thead>").appendTo(myTable);
+			}
+			var copy = thRows.clone(true).appendTo("thead");
+			thRows.remove();
+			myTable.dataTable();
+		}
+
+		
+
+
+		$(document).ready(function () {
+			$('#sidebarCollapse').on('click', function () {
+				$('#sidebar').toggleClass('active');
+			});
+		});
+	</script>
+	<script>
+		initMenu();
+	</script>
+</body>
+</html>

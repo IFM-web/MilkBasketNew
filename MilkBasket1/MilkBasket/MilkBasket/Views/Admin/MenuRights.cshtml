@@ -1,0 +1,112 @@
+﻿@{
+	ViewData["Title"] = "MenuRights";
+	//Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<style>
+	.modal-lg, .modal-xl {
+		max-width: 96%;
+	}
+</style>
+<div class="container-fluid" id="bdy">
+	<br>
+	<div class="card shadow mb-4">
+		<div class="card-header py-3">
+			<h6 id="header" class="m-0 font-weight-bold text-primary">Menu Rights</h6>
+		</div>
+		<div class="card-body">
+
+			<div class="row">
+				
+				<div class="col-md-3">
+
+					<input type="hidden" id="txtHiddenId" value="0" />
+					<input type="hidden" id="flgmode" value="ADD" />
+					<input type="hidden" id="UserId" value="@ViewBag.Adminid" />
+					<input type="hidden" id="cid" value="@ViewBag.cid" />
+					<div class="form-group">
+						<label>Profile</label>
+						<select id="ddlprofile" class="form-control form-controls selectsearch">
+							<option value="0"> Select Profile</option>
+							@if (ViewBag.Websitelist != null)
+							{
+								foreach (var item in ViewBag.Websitelist as List<SelectListItem>)
+								{
+									<option value="@item.Value">@item.Text</option>
+								}
+							}
+						</select>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-12">
+				<div class="row">
+					<div class="col-lg-12" style="text-align:end">
+						<button class="btn btn-primary" id="btnSubmit" onclick="SAVE()">Submit</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="table-responsive">
+				<div class="table table-bordered" width="100%" cellspacing="0">
+					<div id="Printdiv"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.1/js/select2.min.js"></script>
+
+<script src="@Url.Content("~/js/InsAjax.js")"></script>
+<script type="text/javascript">
+
+
+	$(document).ready(function () {
+		
+		$('.selectsearch').select2();
+	});
+
+	$("#ddlprofile").change(function() {
+		var url = "/Admin/BindMenuRightsDiv";
+		var ProfileID = $(this).val();
+		var data = { ProfileID: ProfileID }
+		var RecieveData = BindDiv(url, data, "", "", "");
+	})
+	function SAVE() {
+		var url = "/Admin/SaveMenuRights";
+		var MenuRight = new Array();
+
+		$("#mytable ").each(function() {
+			var row = $(this);
+			var Adm_MenuList = {};
+
+			Adm_MenuList.ProfileId = $("#ddlprofile").find("option:selected").val();
+			//Adm_MenuList.HospitalId =0
+			Adm_MenuList.MenuId = row.find("td").eq(0).html();
+			Adm_MenuList.MenuName = row.find("td").eq(1).html();
+
+			Adm_MenuList.FlagView = row.find('input.checkItemV:checked').val();
+			Adm_MenuList.FlagAdd = row.find('input.checkItemA:checked').val();
+			Adm_MenuList.FlagModify = row.find('input.checkItemM:checked').val();
+			Adm_MenuList.FlagDelete = row.find('input.checkItemD:checked').val();
+			Adm_MenuList.CreateUser = $("#UserId").val();
+			Adm_MenuList.type = 3;
+			Adm_MenuList.MenuRightsId = $("#txtHiddenId").val();
+			Adm_MenuList.CompanyId = $("#cid").val();
+			Adm_MenuList.mod = $("#flgmode").val();
+			MenuRight.push(Adm_MenuList);
+
+		});
+
+		var RecieveData = MenuRightst_Ajax(url, MenuRight, "", "", "");
+	}
+	function BindGrid() {
+		var url = "/Admin/BindMenuRightsDiv";
+		var data = {}
+		var RecieveData = BindDiv(url, data, "", "", "");
+	}
+
+</script>
