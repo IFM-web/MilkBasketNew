@@ -1,0 +1,109 @@
+﻿@{
+    ViewData["Title"] = "Employee List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@using Microsoft.AspNetCore.Http
+    string Add = HttpContextAccessor.HttpContext.Session.GetString("Add");
+    string Delete = HttpContextAccessor.HttpContext.Session.GetString("Delete");
+}
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="~/css/table.css" rel="stylesheet" />
+
+@*  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Upload Excel</h5>
+                    <button type="button" class="close btn btn-danger" data-dismiss="modal" aria-label="Close">
+                        Close
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Excel File</label>
+                        <input type="File" id="excelFile" class="form-control" name="name" value="" />
+                    </div>
+                </div>
+                <div id="FormatDiv"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" id="btnexcelsave" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div> *@
+<div class="w-full min-h-screen" id="bdy">
+
+
+
+    <div class="mx-auto bg-white shadow rounded-lg p-6">
+       <input type="hidden" id="EditFLg" value="@ViewBag.Edit" />
+        <input type="hidden" id="DeleteFlg" value="@ViewBag.Delete" />
+        <div class="md:flex items-center justify-between mb-6">
+        <h3>Employee List</h3>  
+           @if (Add == "1")
+            {
+                <div class="gaps-2">
+                    <a href="~/ExcelFormat/Employee_Sample_Data_Sheet.xlsx" download class="bg-green-600 text-decoration-none text-white mx-2 px-4 py-2 rounded hover:bg-green-700">
+  Download Excel Format
+</a>
+        <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded shadow" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Bulk Upload
+                </button>
+                </div>}
+        </div>
+        <input type="hidden" id="DepartmentCode" value="@ViewBag.DepartmentCode" />
+        <input type="hidden" id="AreaID" value="@ViewBag.AreaID" />
+        <input type="hidden" id="AreaDesc" value="@ViewBag.AreaDesc" />
+        <div class="">
+            <div class="flex gap-2 items-center justify-start py-4  bg-white ">
+        
+
+                <button onclick="exportexcel('Employee')" class="bg-green-600 hover:bg-green-700 text-white font-semibold py-2  px-4 rounded shadow">
+                    Export To Excel
+                </button>
+                @if (Add == "1")
+                {
+                    
+               
+                <a href="~/master/EmployeeMaster" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded shadow">
+                    Add New >>
+                </a>
+                }
+
+            </div>
+
+
+
+
+            <div class="col-md-3 col-lg-3">
+                <input type="text" Id="filterInput" class="form-control" placeholder="Search Here ..." />
+            </div>
+
+
+            <div class="row w-100">
+                <div id="printdiv" class="col-12 overflow-x-auto">
+                   
+                </div>
+            </div>
+
+
+            <div id="loaderOverlay" class="position-fixed top-0 start-0 w-100 h-100 bg-white bg-opacity-75 d-flex justify-content-center align-items-center d-none" style="z-index: 1055; display: none;">
+                <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="~/js/Master.js" asp-append-version="true"></script>
+<script src="~/js/Master/EmployeeList.js" asp-append-version="true"></script>
+

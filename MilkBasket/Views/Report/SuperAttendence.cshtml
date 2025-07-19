@@ -1,0 +1,106 @@
+﻿
+@{
+    ViewData["Title"] = "SuperAttendence";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+
+<div class="w-full  min-h-screen" id="bdy">
+    <div class="mx-auto bg-white shadow rounded-lg p-6">
+
+      
+
+        <!-- Summary Boxes -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+            <div class="bg-orange-400 text-white font-bold text-center p-4 rounded">Total Employees : <span id="TotalEmp"></span></div>
+            <div class="bg-green-600 text-white font-bold text-center p-4  rounded">Total Employees Present : <span id="presentEmp"></span></div>
+            <div class="bg-red-500 text-white font-bold text-center p-4  rounded">Total Employees Late Punching : <span id="punchingEmp"></span></div>
+            <div class="bg-red-800 text-white font-bold text-center p-4  rounded">Total Employees Absent : <span id="AbsentEmp"></span></div>
+        </div>
+
+        <!-- Filters -->
+        <div class="bg-white p-4 rounded shadow mb-4 flex flex-wrap items-center gap-3">
+            <label class="flex items-center space-x-2">
+                <span>From Date</span>
+                <input type="date" id="FromDate" value="@DateTime.Now.ToString("yyyy-MM-dd")" class="border rounded px-2 py-1">
+            </label>
+            <label class="flex items-center space-x-2">
+                <span>To Date</span>
+                <input type="date" id="ToDate" value="@DateTime.Now.ToString("yyyy-MM-dd")" class="border rounded px-2 py-1">
+            </label>
+            <label class="flex items-center space-x-2">
+                <span>Cluster</span>
+                <select id="Cluester" class="border rounded px-2 py-1">
+                    <option value="All">All</option>
+                    @if (ViewBag.Cluester != null)
+                    {
+                        foreach (var e in ViewBag.Cluester as List<SelectListItem>)
+                        {
+                            <option value="@e.Value">@e.Text</option>
+                        }
+                    }
+                </select>
+            </label>
+            <button onclick="ShowEmployeeAttendence()" class="bg-blue-600 text-white px-4 py-1 rounded">View Attendance</button>
+            <label class="flex items-center space-x-2">
+                <button onclick="exportexcel("SuperAttendence")">Employee No</button>
+                <input type="text" id="EmpNo" class="border rounded px-2 py-1">
+            </label>
+            <button onclick="ShowEmployeeAttendence()" class="bg-blue-500 text-white px-4 py-1 rounded">Search</button>
+        </div>
+        <button onclick="exportexcel1('Super Attendence')" class="bg-blue-600 text-white px-4 py-2 rounded mb-2">Export to Excel</button>
+   
+        <!-- Table -->
+        <div class="mb-4">
+           
+            <div class="overflow-x-auto border rounded">
+                <table id="data-table" class="min-w-full border text-sm text-center">
+                    <thead >
+                        <tr>
+                            <th class="border px-2 py-2">S.No</th>
+                            <th class="border px-2 py-2">Employee Code</th>
+                            <th class="border px-2 py-2">Employee Name</th>
+                            <th class="border px-2 py-2">Designation</th>
+                            <th class="border px-2 py-2">Email ID</th>
+                            <th class="border px-2 py-2">Shift Details</th>
+                            <th class="border px-2 py-2">Cluster Details</th>
+                            <th class="border px-2 py-2">Date</th>
+                            <th class="border px-2 py-2">In Time</th>
+                            <th class="border px-2 py-2">Out Time</th>
+                            <th class="border px-2 py-2">Check-In Remarks</th>
+                            <th class="border px-2 py-2">Working Minutes</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbodydata">
+                        <!-- JS will append rows here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+
+            <div id="loaderOverlay" class="position-fixed top-0 start-0 w-100 h-100 bg-white bg-opacity-75 d-flex justify-content-center align-items-center d-none" style="z-index: 1055; display: none;">
+                <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+    </div>
+</div>
+        </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+            <script src="~/js/Master.js"></script>
+            <script src="~/js/Reports/SuperAttendence.js" asp-append-version="true"></script>
+            <script>
+
+                $(document).ready(() => {
+
+                    DownloadFormat("ClusterExcelfrommat");
+                })
+
+            </script>
+
+

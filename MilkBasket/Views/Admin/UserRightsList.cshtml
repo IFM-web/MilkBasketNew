@@ -1,0 +1,108 @@
+﻿
+@{
+    ViewData["Title"] = "UserRightsList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    @inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+    @using Microsoft.AspNetCore.Http
+    string Add = HttpContextAccessor.HttpContext.Session.GetString("Add");
+    int MenuId = Convert.ToInt32(HttpContextAccessor.HttpContext.Session.GetString("MenuId"));
+}
+
+<style>
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.2) !important; 
+}
+</style>
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+     
+    <div class="modal-content">
+         <div class="model-header flex justify-between m-4">
+          <h3 id="heading"></h3>
+         <button type="button" class="bg-red-600 text-decoration-none hover:bg-red-700 text-white font-semibold py-2 px-4 rounded shadow" data-bs-dismiss="modal" aria-label="Close">Close</button>
+      </div>
+            <div id="printbomdiv" class="m-4 overflow-x-auto"></div>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.tailwindcss.com"></script>
+<div class="w-full  min-h-screen" id="bdy">
+    <div class="mx-auto bg-white shadow rounded-lg p-6">
+
+        <!-- Header -->
+        <div class="flex items-center justify-between mb-6">
+            <h1 class="text-2xl font-bold text-gray-800">User Rights List</h1>
+            @*           <div>
+            <a href="~/ExcelFormat/Cluster_Sample_Data_Sheet.xlsx" download class="bg-green-600 text-decoration-none text-white mx-2 px-4 py-2 rounded hover:bg-green-700">
+            Download Excel Format
+            </a> *@
+            @*  <button type="button" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Bulk Upload
+            </button> *@
+
+            @*    </div> *@
+        </div>
+
+
+
+        <button onclick="exportexcel('UserGroup')" class="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded shadow">
+            Export To Excel
+        </button>
+        @if (Add ==
+          "1")
+        {
+            <a href="~/Admin/UserRights?Menuid=@MenuId" class="bg-blue-600 text-decoration-none hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded shadow">
+                Add New
+        </a>
+        }
+        <div class="">
+            <div class="flex flex-wrap gap-4 items-center justify-start p-4 bg-white ">
+            </div>
+
+
+            <input type="text" Id="filterInput" class="w-[30%] border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 px-3 py-2" placeholder="Search Here ..." />
+
+            <div class="row w-100">
+                <div class="col-12 overflow-x-auto">
+                    <div id="printdiv"></div>
+                </div>
+            </div>
+
+
+            <div id="loaderOverlay" class="position-fixed top-0 start-0 w-100 h-100 bg-white bg-opacity-75 d-flex justify-content-center align-items-center d-none" style="z-index: 1055; display: none;">
+                <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            <!-- Bootstrap CSS and JavaScript -->
+
+            <script src="~/js/Master.js" asp-append-version="true"></script>
+
+            <script>
+
+                $(document).ready(() => {
+                    ShowMenu();
+                });
+
+
+                function ShowMenu() {
+                    let url = localStorage.getItem("Url") + '/Admin/ShowRights';
+                    data = {},
+                        Common(url, data, "", "", "", "printdiv");
+                }
+                function ShowDetails(UserId) {
+                    let url = localStorage.getItem("Url") + '/Admin/ShowRightsDetails';
+                    data = {UserId:UserId},
+                        Common(url, data, "", "", "", "printbomdiv");
+                }
+                function Deleteby(Id) {
+                    let url = localStorage.getItem("Url") + '/Admin/DeleteUserRights';
+                    data = { Id: Id },
+                        Common(url, data, "", "", "", "Delete");
+                }
+            </script>
+

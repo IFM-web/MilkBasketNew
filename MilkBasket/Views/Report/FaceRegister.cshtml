@@ -1,0 +1,74 @@
+﻿@{
+    ViewData["Title"] = "FaceRegister";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+
+<div class="w-full  min-h-screen" id="bdy">
+    <div class="mx-auto bg-white shadow rounded-lg p-6">
+        <!-- Stats Boxes -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+            <div class="bg-orange-400 text-white font-bold text-center p-4  rounded">
+                Total Employees : <span id="totalemployees">0</span>
+            </div>
+            <div class="bg-green-600 text-white font-bold text-center p-4  rounded">
+                Total Face Registered : <span id="faceregistered">0</span>
+            </div>
+            <div class="bg-red-600 text-white font-bold text-center p-4  rounded">
+                Total Face Register Pending: <span id="facepending">0</span>
+            </div>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="bg-blue-100 p-4 rounded flex flex-col sm:flex-row items-center gap-3 mb-4">
+            <label class="text-sm font-semibold">Search By Employee Number</label>
+            <input type="text" id="EmpNO" class="border border-gray-300 rounded px-3 py-1 w-48" placeholder="Enter Emp No">
+            <button onclick="ShowEmployeeAttendence()" class="bg-blue-600 text-white px-4 py-1 rounded shadow">View</button>
+        </div>
+
+        <!-- Export Button -->
+        <div class="mb-2">
+            <button class="bg-blue-600 text-white px-4 py-2 rounded shadow" onclick="exportexcel('Face Register Report')">Export to Excel</button>
+        </div>
+
+        <!-- Table -->
+        <div class="overflow-auto border rounded">
+            <table id="data-table" class="min-w-full border text-sm text-center">
+                <thead>
+                    <tr>
+                        <th class="border px-2 py-2">Action</th>
+                        <th class="border px-2 py-2">S.No</th>
+                        <th class="border px-2 py-2">Employee No</th>
+                        <th class="border px-2 py-2">Employee Name</th>
+                    </tr>
+                </thead>
+                <tbody id="employeeTableBody" class="bg-white">
+                    <!-- Dynamic rows go here -->
+                </tbody>
+            </table>
+        </div>
+
+        <div id="loaderOverlay" class="position-fixed top-0 start-0 w-100 h-100 bg-white bg-opacity-75 d-flex justify-content-center align-items-center d-none" style="z-index: 1055; display: none;">
+            <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+        </div>
+        </div>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script src="~/js/Master.js"></script>
+        <script src="~/js/Reports/FaceRegister.js" asp-append-version="true"></script>
+        <script>
+
+            $(document).ready(() => {
+
+                DownloadFormat("ClusterExcelfrommat");
+            })
+
+        </script>

@@ -1,0 +1,118 @@
+﻿
+@{
+    ViewData["Title"] = "PayrollCalculationVendorWise";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+@using Microsoft.AspNetCore.Http
+
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<div class="w-full min-h-screen" id="bdy">
+    <div class="mx-auto bg-white shadow rounded-lg p-6">
+        <h3>Payroll Calculation Vendor Wise</h3>
+<!-- Header Controls -->
+    <div class="flex justify-between items-center mt-4 mb-4">
+    <div class="flex items-center gap-2">
+        <label for="year" class="font-semibold">Year:</label>
+        <select id="year" onchange="ShowPayrollCalculation()" class="border border-gray-300 rounded px-2 py-1">
+            <option value="2025">2025</option>
+            <option value="2024">2024</option>
+        </select>
+    </div>
+
+    <h1 class="text-lg font-semibold  text-center">   @HttpContextAccessor.HttpContext.Session.GetString("CompanyName")</h1>
+
+    <div class="flex items-center gap-2">
+        <label for="month" class="font-semibold">Months:</label>
+        <select id="month" onchange="ShowPayrollCalculation()" class="border border-gray-300 rounded px-2 py-1">
+            <option value="1">January</option>
+                    <option value="2">February</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                    <option value="5">May</option>
+                    <option value="6">June</option>
+                    <option value="7">July</option>
+                    <option value="8">August</option>
+                    <option value="9">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+        </select>
+    </div>
+</div>
+   <div class=" flex mb-2 justify-content-between">
+            <button class="bg-blue-600 text-white px-4 py-2 rounded shadow" onclick="exportexcel1('Payroll Calculation Vendor Wise')">Export to Excel</button>
+            <input type="text" Id="filterInput" class="md:w-[30%] sm:w-full border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 px-3 py-2" placeholder="Search Here ..." />
+</div>
+
+<div class="overflow-x-auto">
+    <table id="data-table" class="min-w-full border border-black text-center text-xs">
+        <thead>
+            <tr class="text-black-900">
+                <th class="border px-2 py-1">S.No.</th>
+                 <th class="border px-2 py-1">Region</th>            
+                <th class="border px-2 py-1">Branch</th> 
+                <th class="border px-2 py-1">Emp. Code</th>
+                <th class="border px-2 py-1">Employee Name</th>
+                <th class="border px-2 py-1">Designation</th>            
+                          
+                <th class="border px-1 py-1">01</th>
+                <th class="border px-1 py-1">02</th>
+                <th class="border px-1 py-1">03</th>
+                <th class="border px-1 py-1">04</th>
+                <th class="border px-1 py-1">05</th>
+                <th class="border px-1 py-1">06</th>
+                <th class="border px-1 py-1">07</th>
+                <th class="border px-1 py-1">08</th>
+                <th class="border px-1 py-1">09</th>
+                <th class="border px-1 py-1">10</th>
+                <th class="border px-1 py-1">11</th>
+                <th class="border px-1 py-1">12</th>
+                <th class="border px-1 py-1">13</th>
+                <th class="border px-1 py-1">14</th>
+                <th class="border px-1 py-1">15</th>
+                <th class="border px-1 py-1">16</th>
+                <th class="border px-1 py-1">17</th>
+                <th class="border px-1 py-1">18</th>
+                <th class="border px-1 py-1">19</th>
+                <th class="border px-1 py-1">20</th>
+                <th class="border px-1 py-1">21</th>
+                <th class="border px-1 py-1">22</th>
+                <th class="border px-1 py-1">23</th>
+                <th class="border px-1 py-1">24</th>
+                <th class="border px-1 py-1">25</th>
+                <th class="border px-1 py-1">26</th>
+                <th class="border px-1 py-1">27</th>
+                <th class="border px-1 py-1">28</th>
+                <th class="border px-1 py-1">29</th>
+                <th class="border px-1 py-1">30</th>
+                <th class="border px-1 py-1">31</th>
+                <th class="border px-2 py-1">Duty Days</th>
+            </tr>
+        </thead>
+        <tbody id="databody">
+        </tbody>
+    </table>
+
+    <div id="loaderOverlay" class="position-fixed top-0 start-0 w-100 h-100 bg-white bg-opacity-75 d-flex justify-content-center align-items-center d-none" style="z-index: 1055; display: none;">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="~/js/Master.js"></script>
+    <script src="~/js/Reports/PayrollCalculationVendorWise.js" asp-append-version="true"></script>
+    <script>
+
+
+    </script>
+
+

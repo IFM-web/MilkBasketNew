@@ -1,0 +1,1526 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Nadeem Ali\\MilkBasket\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\controllers\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\controllers\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\js\\admin\\userrights.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\js\\admin\\userrights.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\shared\\_mainlayout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\shared\\_mainlayout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\admin\\userrights.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\admin\\userrights.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\admin\\usercreationlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\admin\\usercreationlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\home\\branchlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\home\\branchlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\admin\\userrightslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\admin\\userrightslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\master\\copyclusterdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\master\\copyclusterdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\master\\copysocietydata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\master\\copysocietydata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\js\\master\\societycopydata.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\js\\master\\societycopydata.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\js\\master\\clustercopydata.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\js\\master\\clustercopydata.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\admin\\usergrouplist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\admin\\usergrouplist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\js\\master\\clusterlist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\js\\master\\clusterlist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\master\\clusterlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\master\\clusterlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\master\\employeelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\master\\employeelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\admin\\usercreation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\admin\\usercreation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\js\\admin\\usercreate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\js\\admin\\usercreate.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\js\\master\\password.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\js\\master\\password.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\js\\master\\societymaster.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\js\\master\\societymaster.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\js\\master\\soceityemployeemapping.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\js\\master\\soceityemployeemapping.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\js\\master\\employee.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\js\\master\\employee.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\js\\admin\\usergroup.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\js\\admin\\usergroup.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\admin\\menurights.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\admin\\menurights.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\admin\\usergroup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\admin\\usergroup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\report\\superattendence.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\report\\superattendence.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\report\\ptwisetimebrackets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\report\\ptwisetimebrackets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\report\\photoattendance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\report\\photoattendance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\report\\payrollcalculationvendorwise.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\report\\payrollcalculationvendorwise.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\report\\payrollcalculation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\report\\payrollcalculation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\report\\faceregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\report\\faceregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\report\\allhubspunchingnumbers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\report\\allhubspunchingnumbers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\master\\societymaster.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\master\\societymaster.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\master\\societymaptoemployeelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\master\\societymaptoemployeelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\master\\societymaptoemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\master\\societymaptoemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\master\\societylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\master\\societylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\master\\password.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\master\\password.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\master\\menu_master.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\master\\menu_master.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\master\\employeemaster.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\master\\employeemaster.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\master\\clustermaster.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\master\\clustermaster.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\shared\\_menupartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\shared\\_menupartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\shared\\components\\menu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\shared\\components\\menu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\js\\reports\\superattendence.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\js\\reports\\superattendence.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\js\\admin\\menurights.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\js\\admin\\menurights.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\js\\reports\\payrollcalculationvendorwise.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\js\\reports\\payrollcalculationvendorwise.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\authfilter\\authenticationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\authfilter\\authenticationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\js\\admin\\branchlogin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\js\\admin\\branchlogin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\viewcomponent\\menuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\viewcomponent\\menuviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\js\\master\\employeelist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\js\\master\\employeelist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\js\\reports\\allhubspunchingnumbers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\js\\reports\\allhubspunchingnumbers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\js\\reports\\ptwisetimebrackets.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\js\\reports\\ptwisetimebrackets.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\js\\reports\\photoattendence.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\js\\reports\\photoattendence.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\css\\dashboard.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\css\\styleee.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\css\\styleee.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\css\\table.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\css\\table.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\home\\errorpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\home\\errorpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\js\\master\\cluster.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\js\\master\\cluster.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\js\\reports\\payrollcalculation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\js\\reports\\payrollcalculation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\js\\reports\\faceregister.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\js\\reports\\faceregister.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\js\\master\\societylist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\js\\master\\societylist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\js\\admin\\menumaster.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\js\\admin\\menumaster.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\js\\admin\\seturl.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\js\\admin\\seturl.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\components\\left.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\components\\left.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\admin\\mst_menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\admin\\mst_menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\models\\adm_menulist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\models\\adm_menulist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\js\\master\\societyemployeemaplist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\js\\master\\societyemployeemaplist.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Nadeem Ali\\MilkBasket1\\MilkBasket\\MilkBasket\\Views\\Master\\EmployeeMaster.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\models\\branchlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\models\\branchlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\shared\\components\\left\\left.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\shared\\components\\left\\left.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\models\\menuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\models\\menuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\models\\adm_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\models\\adm_profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\views\\admin\\adm_profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\views\\admin\\adm_profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\models\\menumaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\models\\menumaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\wwwroot\\assets\\css\\loginstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\wwwroot\\assets\\css\\loginstyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\models\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\models\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|d:\\nadeem ali\\milkbasket\\milkbasket\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A8BF6AF-D37B-4D96-AFC6-35888FA45D59}|MilkBasket\\MilkBasket.csproj|solutionrelative:milkbasket\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\MilkBasket\\Components\\Left.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MilkBasket\\MilkBasket\\Components\\Left.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Elite BooK\\AppData\\Local\\Temp\\.vsdbgsrc\\e5bd6a2fe4863c1cf0a794948a41d09a9b17403a11bbfb70a111d171fd2a2618\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T06:01:28.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T06:01:21.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserRights.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Admin\\UserRights.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Admin\\UserRights.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Admin\\UserRights.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Admin\\UserRights.cshtml",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAAAGAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T10:31:49.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "userrights.js",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Admin\\userrights.js",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\js\\Admin\\userrights.js",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Admin\\userrights.js",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\js\\Admin\\userrights.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-08T12:36:56.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Program.cs",
+              "RelativeDocumentMoniker": "MilkBasket\\Program.cs",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Program.cs",
+              "RelativeToolTip": "MilkBasket\\Program.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T07:23:47.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MasterController.cs",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Controllers\\MasterController.cs",
+              "RelativeDocumentMoniker": "MilkBasket\\Controllers\\MasterController.cs",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Controllers\\MasterController.cs*",
+              "RelativeToolTip": "MilkBasket\\Controllers\\MasterController.cs*",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAcwBsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T09:55:01.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-18T06:01:30.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserCreationList.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Admin\\UserCreationList.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Admin\\UserCreationList.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Admin\\UserCreationList.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Admin\\UserCreationList.cshtml",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAAEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T11:35:32.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MilkBasket\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MilkBasket\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAAABoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T07:25:22.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_MainLayout1.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Shared\\_MainLayout1.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Shared\\_MainLayout1.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Shared\\_MainLayout1.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Shared\\_MainLayout1.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-13T16:51:53.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\appsettings.json",
+              "RelativeDocumentMoniker": "MilkBasket\\appsettings.json",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\appsettings.json",
+              "RelativeToolTip": "MilkBasket\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-26T07:24:54.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAAAMQAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T14:37:46.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BranchLogin.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Home\\BranchLogin.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Home\\BranchLogin.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Home\\BranchLogin.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Home\\BranchLogin.cshtml",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAtwIIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T08:57:27.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CopyClusterData.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Master\\CopyClusterData.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Master\\CopyClusterData.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Master\\CopyClusterData.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Master\\CopyClusterData.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T05:07:34.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "MilkBasket\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "MilkBasket\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAwwMsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:37:04.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserRightsList.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Admin\\UserRightsList.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Admin\\UserRightsList.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Admin\\UserRightsList.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Admin\\UserRightsList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T10:40:03.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CopySocietyData.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Master\\CopySocietyData.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Master\\CopySocietyData.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Master\\CopySocietyData.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Master\\CopySocietyData.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAADkAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T07:48:40.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SocietyCopyData.js",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Master\\SocietyCopyData.js",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\js\\Master\\SocietyCopyData.js",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Master\\SocietyCopyData.js",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\js\\Master\\SocietyCopyData.js",
+              "ViewState": "AQIAACUAAAAAAAAAAAAwwC4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-12T07:56:01.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ClusterCopyData.js",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Master\\ClusterCopyData.js",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\js\\Master\\ClusterCopyData.js",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Master\\ClusterCopyData.js",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\js\\Master\\ClusterCopyData.js",
+              "ViewState": "AQIAACEAAAAAAAAAAIA4wCwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-12T06:42:40.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserGroupList.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Admin\\UserGroupList.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Admin\\UserGroupList.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Admin\\UserGroupList.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Admin\\UserGroupList.cshtml",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAADgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T09:05:11.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ClusterList.js",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Master\\ClusterList.js",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\js\\Master\\ClusterList.js",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Master\\ClusterList.js",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\js\\Master\\ClusterList.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-28T11:00:30.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ClusterList.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Master\\ClusterList.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Master\\ClusterList.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Master\\ClusterList.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Master\\ClusterList.cshtml",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAUwEwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T10:54:59.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EmployeeList.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Master\\EmployeeList.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Master\\EmployeeList.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Master\\EmployeeList.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Master\\EmployeeList.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAFUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T10:13:59.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserCreation.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Admin\\UserCreation.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Admin\\UserCreation.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Admin\\UserCreation.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Admin\\UserCreation.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAA4AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T11:36:35.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Home\\Login.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Home\\Login.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAAAYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T08:33:12.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Usercreate.js",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Admin\\Usercreate.js",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\js\\Admin\\Usercreate.js",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Admin\\Usercreate.js",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\js\\Admin\\Usercreate.js",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBQAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-08T11:56:30.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Password.js",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Master\\Password.js",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\js\\Master\\Password.js",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Master\\Password.js",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\js\\Master\\Password.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-08T01:50:32.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Societymaster.js",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Master\\Societymaster.js",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\js\\Master\\Societymaster.js",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Master\\Societymaster.js",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\js\\Master\\Societymaster.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-28T07:27:19.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SoceityEmployeeMapping.js",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Master\\SoceityEmployeeMapping.js",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\js\\Master\\SoceityEmployeeMapping.js",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Master\\SoceityEmployeeMapping.js",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\js\\Master\\SoceityEmployeeMapping.js",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-30T10:27:20.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Employee.js",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Master\\Employee.js",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\js\\Master\\Employee.js",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Master\\Employee.js",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\js\\Master\\Employee.js",
+              "ViewState": "AQIAABkAAAAAAAAAAADwvzcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-27T09:06:06.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserGroup.js",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Admin\\UserGroup.js",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\js\\Admin\\UserGroup.js",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Admin\\UserGroup.js",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\js\\Admin\\UserGroup.js",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-08T09:29:08.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserGroup.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Admin\\UserGroup.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Admin\\UserGroup.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Admin\\UserGroup.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Admin\\UserGroup.cshtml",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAAEMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T09:04:29.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MenuRights.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Admin\\MenuRights.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Admin\\MenuRights.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Admin\\MenuRights.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Admin\\MenuRights.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T05:35:19.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SuperAttendence.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Report\\SuperAttendence.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Report\\SuperAttendence.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Report\\SuperAttendence.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Report\\SuperAttendence.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAF8AAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T06:56:07.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PTwiseTimebrackets.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Report\\PTwiseTimebrackets.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Report\\PTwiseTimebrackets.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Report\\PTwiseTimebrackets.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Report\\PTwiseTimebrackets.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAEUAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T09:40:45.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PhotoAttendance.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Report\\PhotoAttendance.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Report\\PhotoAttendance.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Report\\PhotoAttendance.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Report\\PhotoAttendance.cshtml",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAIwGMAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T05:43:27.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "PayrollCalculationVendorWise.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Report\\PayrollCalculationVendorWise.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Report\\PayrollCalculationVendorWise.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Report\\PayrollCalculationVendorWise.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Report\\PayrollCalculationVendorWise.cshtml",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAAAG8AAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T09:41:42.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PayrollCalculation.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Report\\PayrollCalculation.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Report\\PayrollCalculation.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Report\\PayrollCalculation.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Report\\PayrollCalculation.cshtml",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAAAG0AAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T13:15:21.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FaceRegister.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Report\\FaceRegister.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Report\\FaceRegister.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Report\\FaceRegister.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Report\\FaceRegister.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEEAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T09:38:15.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AllHubsPunchingnumbers.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Report\\AllHubsPunchingnumbers.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Report\\AllHubsPunchingnumbers.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Report\\AllHubsPunchingnumbers.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Report\\AllHubsPunchingnumbers.cshtml",
+              "ViewState": "AQIAADEAAAAAAAAAAAAAADgAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T09:39:36.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SocietyMaster.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Master\\SocietyMaster.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Master\\SocietyMaster.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Master\\SocietyMaster.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Master\\SocietyMaster.cshtml",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAAAFcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T07:23:49.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "SocietyMapToEmployeeList.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Master\\SocietyMapToEmployeeList.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Master\\SocietyMapToEmployeeList.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Master\\SocietyMapToEmployeeList.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Master\\SocietyMapToEmployeeList.cshtml",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAAEkAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T14:46:19.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "SocietyMapToEmployee.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Master\\SocietyMapToEmployee.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Master\\SocietyMapToEmployee.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Master\\SocietyMapToEmployee.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Master\\SocietyMapToEmployee.cshtml",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAAAFMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T10:38:06.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "SocietyList.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Master\\SocietyList.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Master\\SocietyList.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Master\\SocietyList.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Master\\SocietyList.cshtml",
+              "ViewState": "AQIAADsAAAAAAAAAAAAAAEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T07:28:14.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Password.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Master\\Password.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Master\\Password.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Master\\Password.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Master\\Password.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-07T17:21:35.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Menu_Master.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Master\\Menu_Master.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Master\\Menu_Master.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Master\\Menu_Master.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Master\\Menu_Master.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T06:09:37.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "EmployeeMaster.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Master\\EmployeeMaster.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Master\\EmployeeMaster.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Master\\EmployeeMaster.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Master\\EmployeeMaster.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T06:37:30.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ClusterMaster.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Master\\ClusterMaster.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Master\\ClusterMaster.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Master\\ClusterMaster.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Master\\ClusterMaster.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-28T10:52:15.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "_MenuPartial.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Shared\\_MenuPartial.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Shared\\_MenuPartial.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Shared\\_MenuPartial.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Shared\\_MenuPartial.cshtml",
+              "ViewState": "AQIAAIIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-13T16:52:42.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "SuperAttendence.js",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Reports\\SuperAttendence.js",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\js\\Reports\\SuperAttendence.js",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Reports\\SuperAttendence.js",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\js\\Reports\\SuperAttendence.js",
+              "ViewState": "AQIAACQAAAAAAAAAAAAUwEcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-01T08:49:40.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Shared\\Components\\Menu\\Default.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Shared\\Components\\Menu\\Default.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Shared\\Components\\Menu\\Default.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Shared\\Components\\Menu\\Default.cshtml",
+              "ViewState": "AQIAAPYAAAAAAAAAAAAAALMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T01:09:11.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Menurights.js",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Admin\\Menurights.js",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\js\\Admin\\Menurights.js",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Admin\\Menurights.js",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\js\\Admin\\Menurights.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-08T10:19:08.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "PayrollCalculationVendorWise.js",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Reports\\PayrollCalculationVendorWise.js",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\js\\Reports\\PayrollCalculationVendorWise.js",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Reports\\PayrollCalculationVendorWise.js",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\js\\Reports\\PayrollCalculationVendorWise.js",
+              "ViewState": "AQIAABcAAAAAAAAAAAAuwCIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-01T13:17:57.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "AuthenticationFilter.cs",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\AuthFilter\\AuthenticationFilter.cs",
+              "RelativeDocumentMoniker": "MilkBasket\\AuthFilter\\AuthenticationFilter.cs",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\AuthFilter\\AuthenticationFilter.cs",
+              "RelativeToolTip": "MilkBasket\\AuthFilter\\AuthenticationFilter.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T09:44:25.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "UploadController.cs",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Controllers\\UploadController.cs",
+              "RelativeDocumentMoniker": "MilkBasket\\Controllers\\UploadController.cs",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Controllers\\UploadController.cs",
+              "RelativeToolTip": "MilkBasket\\Controllers\\UploadController.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAuwF8AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T17:16:30.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "BranchLogin.js",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Admin\\BranchLogin.js",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\js\\Admin\\BranchLogin.js",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Admin\\BranchLogin.js",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\js\\Admin\\BranchLogin.js",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAwCwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-26T09:50:11.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "MenuViewComponent.cs",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\ViewComponent\\MenuViewComponent.cs",
+              "RelativeDocumentMoniker": "MilkBasket\\ViewComponent\\MenuViewComponent.cs",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\ViewComponent\\MenuViewComponent.cs",
+              "RelativeToolTip": "MilkBasket\\ViewComponent\\MenuViewComponent.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAowB8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T00:48:32.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "EmployeeList.js",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Master\\EmployeeList.js",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\js\\Master\\EmployeeList.js",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Master\\EmployeeList.js",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\js\\Master\\EmployeeList.js",
+              "ViewState": "AQIAABkAAAAAAAAAAAAiwD8AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-27T10:16:24.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "AllHubsPunchingnumbers.js",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Reports\\AllHubsPunchingnumbers.js",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\js\\Reports\\AllHubsPunchingnumbers.js",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Reports\\AllHubsPunchingnumbers.js",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\js\\Reports\\AllHubsPunchingnumbers.js",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwBAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-11T20:35:52.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "PTwiseTimebrackets.js",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Reports\\PTwiseTimebrackets.js",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\js\\Reports\\PTwiseTimebrackets.js",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Reports\\PTwiseTimebrackets.js",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\js\\Reports\\PTwiseTimebrackets.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-01T13:03:55.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "PhotoAttendence.js",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Reports\\PhotoAttendence.js",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\js\\Reports\\PhotoAttendence.js",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Reports\\PhotoAttendence.js",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\js\\Reports\\PhotoAttendence.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-01T06:07:24.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-11T17:48:42.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Styleee.css",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\css\\Styleee.css",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\css\\Styleee.css",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\css\\Styleee.css",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\css\\Styleee.css",
+              "ViewState": "AQIAACQBAAAAAAAAAAAAALsBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-28T07:36:16.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Dashboard.css",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\css\\Dashboard.css",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\css\\Dashboard.css",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\css\\Dashboard.css",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\css\\Dashboard.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-11T20:08:49.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "table.css",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\css\\table.css",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\css\\table.css",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\css\\table.css",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\css\\table.css",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAA4AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-04T05:01:26.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "ErrorPage.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Home\\ErrorPage.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Home\\ErrorPage.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Home\\ErrorPage.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Home\\ErrorPage.cshtml",
+              "ViewState": "AQIAAEcAAAAAAAAAAAD4v0UAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T11:03:12.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Cluster.js",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Master\\Cluster.js",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\js\\Master\\Cluster.js",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Master\\Cluster.js",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\js\\Master\\Cluster.js",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwB8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-28T11:00:12.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "PayrollCalculation.js",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Reports\\PayrollCalculation.js",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\js\\Reports\\PayrollCalculation.js",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Reports\\PayrollCalculation.js",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\js\\Reports\\PayrollCalculation.js",
+              "ViewState": "AQIAADMAAAAAAAAAAAAuwDgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-01T12:02:50.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "FaceRegister.js",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Reports\\FaceRegister.js",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\js\\Reports\\FaceRegister.js",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Reports\\FaceRegister.js",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\js\\Reports\\FaceRegister.js",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAowF0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-01T09:48:08.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "SocietyList.js",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Master\\SocietyList.js",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\js\\Master\\SocietyList.js",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Master\\SocietyList.js",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\js\\Master\\SocietyList.js",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAtwE0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-28T07:26:52.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "setUrl.js",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Admin\\setUrl.js",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\js\\Admin\\setUrl.js",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Admin\\setUrl.js",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\js\\Admin\\setUrl.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-03T10:46:19.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "MenuMaster.js",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Admin\\MenuMaster.js",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\js\\Admin\\MenuMaster.js",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Admin\\MenuMaster.js",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\js\\Admin\\MenuMaster.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-03T11:11:59.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "MilkBasket\\Controllers\\ReportController.cs",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "MilkBasket\\Controllers\\ReportController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAewCMAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T05:40:44.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T07:39:21.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Left.cs",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Components\\Left.cs",
+              "RelativeDocumentMoniker": "MilkBasket\\Components\\Left.cs",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Components\\Left.cs",
+              "RelativeToolTip": "MilkBasket\\Components\\Left.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T10:50:20.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Mst_Menu.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Admin\\Mst_Menu.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Admin\\Mst_Menu.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Admin\\Mst_Menu.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Admin\\Mst_Menu.cshtml",
+              "ViewState": "AQIAABwAAAAAAAAAAABBwEkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T06:25:31.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Elite BooK\\AppData\\Local\\Temp\\.vsdbgsrc\\e5bd6a2fe4863c1cf0a794948a41d09a9b17403a11bbfb70a111d171fd2a2618\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Elite BooK\\AppData\\Local\\Temp\\.vsdbgsrc\\e5bd6a2fe4863c1cf0a794948a41d09a9b17403a11bbfb70a111d171fd2a2618\\HomeController.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAEBVwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T19:59:58.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Utility.cs",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Utility.cs",
+              "RelativeDocumentMoniker": "MilkBasket\\Utility.cs",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Utility.cs",
+              "RelativeToolTip": "MilkBasket\\Utility.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAgwEUAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T08:42:00.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Adm_MenuList.cs",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Models\\Adm_MenuList.cs",
+              "RelativeDocumentMoniker": "MilkBasket\\Models\\Adm_MenuList.cs",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Models\\Adm_MenuList.cs",
+              "RelativeToolTip": "MilkBasket\\Models\\Adm_MenuList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T11:30:16.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABkAAAAAAAAAAABBwCYAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-27T01:19:52.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "SocietyEmployeeMapList.js",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Master\\SocietyEmployeeMapList.js",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\js\\Master\\SocietyEmployeeMapList.js",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\js\\Master\\SocietyEmployeeMapList.js",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\js\\Master\\SocietyEmployeeMapList.js",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAIwFYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-03T11:13:55.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T10:44:57.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "Left.cs",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\MilkBasket\\Components\\Left.cs",
+              "RelativeDocumentMoniker": "MilkBasket\\MilkBasket\\Components\\Left.cs",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\MilkBasket\\Components\\Left.cs",
+              "RelativeToolTip": "MilkBasket\\MilkBasket\\Components\\Left.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACgAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T07:35:12.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "EmployeeMaster.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket1\\MilkBasket\\MilkBasket\\Views\\Master\\EmployeeMaster.cshtml",
+              "RelativeDocumentMoniker": "..\\MilkBasket1\\MilkBasket\\MilkBasket\\Views\\Master\\EmployeeMaster.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket1\\MilkBasket\\MilkBasket\\Views\\Master\\EmployeeMaster.cshtml",
+              "RelativeToolTip": "..\\MilkBasket1\\MilkBasket\\MilkBasket\\Views\\Master\\EmployeeMaster.cshtml",
+              "ViewState": "AQIAAJUAAAAAAAAAAAAAAJgAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-30T07:24:21.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "BranchLogin.cs",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Models\\BranchLogin.cs",
+              "RelativeDocumentMoniker": "MilkBasket\\Models\\BranchLogin.cs",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Models\\BranchLogin.cs",
+              "RelativeToolTip": "MilkBasket\\Models\\BranchLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T09:20:17.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Left.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Shared\\Components\\Left\\Left.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Shared\\Components\\Left\\Left.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Shared\\Components\\Left\\Left.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Shared\\Components\\Left\\Left.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T14:04:08.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "MenuViewModel.cs",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Models\\MenuViewModel.cs",
+              "RelativeDocumentMoniker": "MilkBasket\\Models\\MenuViewModel.cs",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Models\\MenuViewModel.cs",
+              "RelativeToolTip": "MilkBasket\\Models\\MenuViewModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAIwAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T02:59:44.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Models\\MenuItem.cs",
+              "RelativeDocumentMoniker": "MilkBasket\\Models\\MenuItem.cs",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Models\\MenuItem.cs",
+              "RelativeToolTip": "MilkBasket\\Models\\MenuItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T14:43:21.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Adm_Profile.cs",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Models\\Adm_Profile.cs",
+              "RelativeDocumentMoniker": "MilkBasket\\Models\\Adm_Profile.cs",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Models\\Adm_Profile.cs",
+              "RelativeToolTip": "MilkBasket\\Models\\Adm_Profile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T11:27:44.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "Adm_Profile.cshtml",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Admin\\Adm_Profile.cshtml",
+              "RelativeDocumentMoniker": "MilkBasket\\Views\\Admin\\Adm_Profile.cshtml",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Views\\Admin\\Adm_Profile.cshtml",
+              "RelativeToolTip": "MilkBasket\\Views\\Admin\\Adm_Profile.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAEBVwE8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-26T12:27:13.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "MenuMaster.cs",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Models\\MenuMaster.cs",
+              "RelativeDocumentMoniker": "MilkBasket\\Models\\MenuMaster.cs",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Models\\MenuMaster.cs",
+              "RelativeToolTip": "MilkBasket\\Models\\MenuMaster.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA9wB0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T11:18:34.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "LoginStyle.css",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\assets\\css\\LoginStyle.css",
+              "RelativeDocumentMoniker": "MilkBasket\\wwwroot\\assets\\css\\LoginStyle.css",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\wwwroot\\assets\\css\\LoginStyle.css",
+              "RelativeToolTip": "MilkBasket\\wwwroot\\assets\\css\\LoginStyle.css",
+              "ViewState": "AQIAAB4AAAAAAAAAAIBZwDIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-26T10:17:33.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "MilkBasket\\Models\\Login.cs",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Models\\Login.cs",
+              "RelativeToolTip": "MilkBasket\\Models\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T08:19:00.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "ConnectDB.cs",
+              "DocumentMoniker": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Models\\ConnectDB.cs",
+              "RelativeDocumentMoniker": "MilkBasket\\Models\\ConnectDB.cs",
+              "ToolTip": "D:\\Nadeem Ali\\MilkBasket\\MilkBasket\\Models\\ConnectDB.cs",
+              "RelativeToolTip": "MilkBasket\\Models\\ConnectDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T08:40:43.868Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

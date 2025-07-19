@@ -1,0 +1,65 @@
+﻿
+@{
+    ViewData["Title"] = "AllHubsPunchingnumbers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<script src="https://cdn.tailwindcss.com"></script>
+<div class="w-full  min-h-screen" id="bdy">
+    <div class="mx-auto bg-white shadow rounded-lg p-6">
+        <h3>All Hubs Punching Numbers</h3>
+<!-- Filter Section -->
+<div class="flex flex-wrap items-center gap-4 bg-blue-100 p-4 mt-6 rounded">
+    <label class="text-sm font-medium text-gray-700">Date:</label>
+            <input type="date"  value="@DateTime.Now.ToString("yyyy-MM-dd")" id="Date" class="border rounded px-2 py-1 text-sm" />
+    <button onclick="ShowAllHubsPunchingnumbers()" class="bg-blue-500 text-white px-4 py-1 rounded hover:bg-blue-600">View</button>
+</div>
+
+<!-- Export Button -->
+<div class="my-4">
+            <button onclick="exportexcel1('All Hubs Punching numbers')" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+        Export to Excel
+    </button>
+</div>
+        <input type="text" Id="filterInput" class="md:w-[30%] sm:w-full border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 px-3 py-2" placeholder="Search Here ..." />
+<!-- Table Section -->
+<div class="overflow-auto">
+    <table id="data-table" class="min-w-full border text-sm text-center">
+        <thead>
+            <tr>
+                <th class="border px-2 py-1">S.No</th>
+                <th class="border px-2 py-1">Company</th>
+                <th class="border px-2 py-1">Region</th>
+                <th class="border px-2 py-1">Branch</th>
+                <th class="border px-2 py-1">Date</th>
+                <th class="border px-2 py-1">Total Enroll Part Timers</th>
+                <th class="border px-2 py-1">Total Check IN's</th>
+            </tr>
+        </thead>
+                <tbody id="tbodydata" class="bg-white">
+            <!-- Dynamic rows go here -->
+        </tbody>
+    </table>
+</div>
+</div>
+</div>
+
+            <div id="loaderOverlay" class="position-fixed top-0 start-0 w-100 h-100 bg-white bg-opacity-75 d-flex justify-content-center align-items-center d-none" style="z-index: 1055; display: none;">
+                <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="~/js/Master.js"></script>
+<script src="~/js/Reports/AllHubsPunchingnumbers.js" asp-append-version="true"></script>
+<script>
+
+    $(document).ready(() => {
+
+        DownloadFormat("ClusterExcelfrommat");
+    })
+
+</script>
